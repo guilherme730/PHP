@@ -23,9 +23,16 @@
     $divisao =
         "<br>==============<br>";
     echo $divisao;
-    $nome = "Chaves";
+    /*$nome = "Chaves";
     $sobrenome = "del Ocho";
-    echo "Olá, meu nome é $nome e meu sobrenome é $sobrenome. ";
+    echo "Olá, meu nome é $nome e meu sobrenome é $sobrenome. "; */
+
+    /* Ex.1 - CRie um script PHP que declare três variaveis: $nome, $idade e $cidade. Atribua valores a essas variaveis e exiba uma mensagem que combine esses valores */
+
+    $nome = "Luis";
+    $idade = "18";
+    $cidade = "Bauru";
+    echo "Olá, meu nome é $nome, eu tenho $idade anos e sou de $cidade.";
     ?>
 </body>
 
