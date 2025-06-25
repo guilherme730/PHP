@@ -91,6 +91,31 @@
         echo "<br>".rand(1,100);
         echo "<br>".rand();
         echo $traco;
+        echo "<h2>Outras funções em PHP</h2>";
+        echo "<p><strong>abs()</strong> - Valor absoluto</p>";
+        $numero1 = 5;
+        $numero2 = 10;
+        echo abs($numero1 -= $numero2); //$numero1 = $numero1 - $numero2
+        echo "<p><strong>base_convert()</strong> - Conversor de base entre números</p>";
+        $binario = "1111";
+        echo $decimal = base_convert($binario, 2, 10);
+        echo "<p><strong>ceil()</strong> - Arredondar para cima</p>";
+        $arredondarCima = 3.2;
+        echo ceil($arredondarCima);
+        echo "<p><strong>floor()</strong> - Arredondar para baixo</p>";
+        $arredondarBaixo = 3.9;
+        echo floor($arredondarBaixo);
+        echo "<p><strong>round()</strong> - Arredondar</p>";
+        $arredondar = 3.14159;
+        echo round($arredondar)."<br>";
+        echo round($arredondar,2);
+        echo "<p><strong>hypot()</strong> - Achar a hipotenusa entre dois catetos</p>";
+        echo hypot(6, 8);
+        echo "<p><strong>intdiv()</strong> - Divisão de inteiros</p>";
+        echo intdiv(10, 5);
+        echo "<p><strong>sqrt()</strong> - Raíz quadrada</p>";
+        $raizquadrada = 256;
+        echo sqrt($raizquadrada);
     ?>
 </body>
 
