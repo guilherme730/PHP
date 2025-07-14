@@ -8,7 +8,7 @@
 <body>
 <a href="javascript: history.go(-1)">Voltar</a> | <a href="index.php">Home</a>
 <?php 
-//var_dump($_GET);
+var_dump($_GET);
 
     echo "<p>Seja bem-vindo! <strong>".$_GET["nome"]."</strong><br>O e-mail digitado foi: ".$_GET["email"]."</p>";
 ?>
