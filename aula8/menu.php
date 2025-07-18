@@ -1,0 +1,1 @@
+<a class="btn btn-primary" href="javascript: history.go (-1)" role="button">Voltar</a> | <a class="btn btn-primary" href="index.html" role="button">Home</a>
